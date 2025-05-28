@@ -58,5 +58,5 @@ This repo provides a **simplified EKS setup** for development that balances **co
 │        ├── subnets.tf
 │        └── vpc.tf
 └── README.md
-8 directories, 27 files
+9 directories, 32 files
 </pre>
