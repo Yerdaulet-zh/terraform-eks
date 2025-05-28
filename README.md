@@ -1,9 +1,13 @@
 # terraform-eks
-Terraform repository for production grade managament of cloud services specifically for EKS
 
-Project tree:
+Terraform repository for production-grade management of cloud services, specifically for EKS.
 
-├── bootstrap
+## Project tree
+
+<pre>
+```
+.
+├── global
 │   ├── backend.tf
 │   ├── dynamodb.tf
 │   ├── provider.tf
@@ -11,11 +15,32 @@ Project tree:
 │   └── variables.tf
 ├── development
 │   └── vpc
-│       └── backend.tf
+│       ├── backend.tf
+│       ├── igw.tf
+│       ├── locals.tf
+│       ├── nat.tf
+│       ├── routes.tf
+│       ├── subnets.tf
+│       └── vpc.tf
 ├── production
 │   └── vpc
-│       └── backend.tf
-├── README.md
-└── staging
-    └── vpc
-        └── backend.tf
+│       ├── backend.tf
+│       ├── igw.tf
+│       ├── locals.tf
+│       ├── nat.tf
+│       ├── routes.tf
+│       ├── subnets.tf
+│       └── vpc.tf
+├── staging
+│    └── vpc
+│        ├── backend.tf
+│        ├── igw.tf
+│        ├── locals.tf
+│        ├── nat.tf
+│        ├── routes.tf
+│        ├── subnets.tf
+│        └── vpc.tf
+└── README.md
+8 directories, 27 files
+```
+</pre>
