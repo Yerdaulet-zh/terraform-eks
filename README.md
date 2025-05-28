@@ -25,6 +25,9 @@ This repo provides a **simplified EKS setup** for development that balances **co
 │   ├── s3.tf
 │   └── variables.tf
 ├── development
+│   ├── eks
+│   │   ├── backend.tf
+│   │   └── provider.tf
 │   └── vpc
 │       ├── backend.tf
 │       ├── igw.tf
