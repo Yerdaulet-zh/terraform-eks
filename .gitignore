@@ -1,4 +1,4 @@
-bootstrap/.terraform
-bootstrap/.terraform.lock.hcl
-bootstrap/terraform.tfstate
-bootstrap/terraform.tfstate.backup
+global/.terraform
+global/.terraform.lock.hcl
+global/terraform.tfstate
+global/terraform.tfstate.backup
