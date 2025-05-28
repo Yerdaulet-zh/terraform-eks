@@ -8,6 +8,12 @@ development/vpc/.terraform.lock.hcl
 development/vpc/terraform.tfstate
 development/vpc/terraform.tfstate.backup
 
+development/eks/.terraform
+development/eks/.terraform.lock.hcl
+development/eks/terraform.tfstate
+development/eks/terraform.tfstate.backup
+development/eks/variables.tf
+
 production/vpc/.terraform
 production/vpc/.terraform.lock.hcl
 production/vpc/terraform.tfstate
